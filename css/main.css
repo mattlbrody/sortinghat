@@ -83,6 +83,11 @@ form button {
 	text-align:center;
 }
 
+#redTeam h1, #blueTeam h1, #redTeam button, #blueTeam button {
+	z-index: 1000;
+    position: relative;
+}
+
 #blueTeam {
 	display:none;
 	position:absolute;
@@ -106,4 +111,10 @@ form button {
 	color:white;
 	font-size:100px;
 	text-align:center;
+}
+
+canvas {
+	position:absolute;
+	top:0;
+	left:0;
 }
